@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        num=+prompt("enter a number");
+        let a=0,b=1,res="",count=0;
+        while(count!=num){
+            for(i=a+1;i<b;i++){
+                //console.log(i);
+                count++;
+                 if(i<=num){
+                    res+=i+" "
+                    alert(res);
+                }
+            }
+            c=a+b;
+            a=b;
+            b=c;
+        }
+       
+        
+    </script>
+</body>
+</html>

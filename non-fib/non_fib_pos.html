@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //using for loop
+        num=+prompt("enter a number");
+        let a=0,b=1,res="",count=0;
+        while(count!=num){
+            for(i=a+1;i<b;i++){
+                count++;
+                 if(count==num){
+                    alert(i);
+                    break;
+                }
+            }
+               
+               
+            c=a+b;
+            a=b;
+            b=c;
+        }
+// using while loop
+        // num=+prompt("enter a number");
+        // let a=0,b=1,res="",count=0;
+        // while(count!=num){
+        //     i=a+1
+        //     while(i<b){
+        //         i++;
+        //         count++;
+        //         if(count==num){
+        //             console.log(i-1);
+        //             break;
+        //         }
+               
+        //     }
+        //     c=a+b;
+        //     a=b;
+        //     b=c;
+        // }
+    </script>
+</body>
+</html>
